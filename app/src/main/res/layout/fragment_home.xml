@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".ui.home.HomeFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame1">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/search"
+        android:layout_width="390dp"
+        android:layout_height="45dp"
+        android:drawableStart="@drawable/loupe"
+        android:drawablePadding="9dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:hint="@string/search" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/squareback"
+        android:layout_below="@+id/frame1"
+        android:layout_marginTop="80dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fm_main"/>
+    </LinearLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:elevation="2dp"
+        android:background="@drawable/squareimage"
+        android:layout_marginTop="92dp"/>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:elevation="2dp"
+        android:background="@drawable/squareimage2"
+        android:layout_marginTop="90dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fm"/>
+
+   </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/belanja"
+        android:textSize="17sp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="105dp"
+        android:textColor="#616161"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/market2"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="140dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pasar"
+                android:textSize="17sp"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="textStart"
+                android:layout_marginRight="170dp"
+                android:layout_marginTop="143dp"
+                android:textColor="@android:color/black"/>
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="@string/ganti"
+                android:layout_marginTop="129dp"
+                android:layout_marginRight="40dp"
+                android:elevation="50dp"
+                android:textSize="18dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/btn_ganti"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jenis_produk"
+            android:textSize="17sp"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="textStart"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="210dp"
+            android:textColor="@android:color/black"/>
+
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HomePageTumbasin</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="search">Search...</string>
+    <string name="belanja">Kamu Belanja Di :</string>
+    <string name="pasar">Pasar Bulu Semarang</string>
+    <string name="ganti">GANTI</string>
+    <string name="jenis_produk">Telusuri jenis produk</string>
+</resources>
