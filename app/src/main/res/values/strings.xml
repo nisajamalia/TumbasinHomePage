@@ -8,4 +8,18 @@
     <string name="pasar">Pasar Bulu Semarang</string>
     <string name="ganti">GANTI</string>
     <string name="jenis_produk">Telusuri jenis produk</string>
+    <string name="lable_sayuran">Sayuran</string>
+    <string name="lable_lauk">Lauk Pauk</string>
+    <string name="lable_buah">Buah</string>
+    <string name="lable_sea">Seafood</string>
+    <string name="lable_bumbu">Bumbu</string>
+    <string name="lable_sembako">Sembako</string>
+    <string name="lable_jajanan">Jajanan</string>
+    <string name="lable_kesehatan">Kesehatan</string>
+    <string name="lable_masak">Siap Masak</string>
+    <string name="terlaris">Produk Terlaris</string>
+    <string name="see">Lihat semua</string>
+    <string name="title">Title</string>
+    <string name="harga">Harga</string>
+    <string name="tambahkan">Tambahkan</string>
 </resources>
